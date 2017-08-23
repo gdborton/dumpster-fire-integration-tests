@@ -1,0 +1,18 @@
+{
+  "name": "dumpster-fire-integration-tests",
+  "version": "0.0.0",
+  "description": "Integration tests for dumpster-fire.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/in-need-of-rename/dumpster-fire-integration-tests.git"
+  },
+  "author": "Gary Borton <gdborton@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/in-need-of-rename/dumpster-fire-integration-tests/issues"
+  },
+  "homepage": "https://github.com/in-need-of-rename/dumpster-fire-integration-tests#readme"
+}
