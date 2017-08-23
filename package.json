@@ -4,7 +4,7 @@
   "description": "Integration tests for dumpster-fire.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,12 @@
   "bugs": {
     "url": "https://github.com/in-need-of-rename/dumpster-fire-integration-tests/issues"
   },
-  "homepage": "https://github.com/in-need-of-rename/dumpster-fire-integration-tests#readme"
+  "homepage": "https://github.com/in-need-of-rename/dumpster-fire-integration-tests#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "dumpster-fire": "0.0.0",
+    "mocha": "^3.5.0",
+    "rimraf": "^2.6.1",
+    "source-map-support": "^0.4.16"
+  }
 }

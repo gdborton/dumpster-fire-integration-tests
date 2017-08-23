@@ -48,3 +48,5 @@ package-lock.json
 
 # Exclude compiled templates in fixtures dir from git
 __tests__/**/output.js
+test/**/dist/
+test/**/.cache/
