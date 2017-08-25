@@ -3,8 +3,8 @@ const chai = require('chai');
 const dumpsterFire = require('dumpster-fire');
 const rimraf = require('rimraf');
 
-rimraf.sync('./dist');
-rimraf.sync('./.cache');
+rimraf.sync(path.join(__dirname, './dist'));
+rimraf.sync(path.join(__dirname, './.cache'));
 
 const expect = chai.expect;
 require('source-map-support').install();

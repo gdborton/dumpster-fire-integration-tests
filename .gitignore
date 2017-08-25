@@ -50,3 +50,4 @@ package-lock.json
 __tests__/**/output.js
 test/**/dist/
 test/**/.cache/
+test/large-project/src/**/*

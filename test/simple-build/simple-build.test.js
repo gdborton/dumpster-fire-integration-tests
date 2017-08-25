@@ -4,8 +4,8 @@ const rimraf = require('rimraf');
 const dumpsterFire = require('dumpster-fire');
 const expect = chai.expect;
 
-rimraf.sync('./dist');
-rimraf.sync('./.cache');
+rimraf.sync(path.join(__dirname, './dist'));
+rimraf.sync(path.join(__dirname, './.cache'));
 
 const buildConfig = [{
   bundleGlob: '**/*.bundle.js',
